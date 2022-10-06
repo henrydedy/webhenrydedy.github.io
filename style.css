@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+    padding: 1%;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	display:contents;
+}
+
+header ul li a {
+	padding:25px 20px;
+	display: inline-block;
+}
+
+.logo {
+    border-radius: 5rem;
+    width: 48px;
+    margin: 2rem
+}
+
+.banner {
+    display: flex;
+	height: 60vh;
+    padding: 0 10vh;
+    background: linear-gradient(rgba(3, 255, 146, 0.4), rgba(3, 255, 146, 0.4)), url('/2.jpg');
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner button {
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+/* OUR PRODUCTS */
+
+.our{
+    display: flex;
+}
+.our-products {
+    padding: 30px 10vh;
+}
+
+.our-products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.our-products .flex {
+    justify-content: center;
+    gap: 2rem
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 80px;
+}
+
+/* ABOUT US */
+
+.about-us {
+    background-color: rgb(224, 224, 224);
+    padding: 10vh 15vw;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.about-us img {
+    width: 33%;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 193, 30);
+    padding: 40px 80px;
+}
+
+.subscribe input {
+    height: 36px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background-color: rgba(4, 254, 4, 0);
+    margin-right: 10px;
+    color: white;
+    padding: 0px 10px;
+}
+
+.subscribe input::placeholder {
+    color: white;
+}
+
+.subscribe button {
+    color: rgb(65, 193, 30);
+    height: 36px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0px;
+    padding: 10px 20px;
+}
+
+.nav {
+    text-align: left;
+    width: 28%;
+    display: inline-block;
+    margin: 20px;
+}
+
+.footer {
+    background-color: #121212;
+    height: 48px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+
+}
